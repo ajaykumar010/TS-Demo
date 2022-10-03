@@ -14,7 +14,7 @@ import Image from 'next/image';
 export const  NavbarComponent = () => {
   return (
     <>
-    <Navbar expand="lg">
+    <Navbar expand="lg" bg='primary'>
         <Container fluid>
             <Image src="/logo.jpg" alt='my-logo' height={100} width={200}  />
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
